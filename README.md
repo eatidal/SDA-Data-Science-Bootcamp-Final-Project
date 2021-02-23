@@ -3,7 +3,8 @@ Author: Eatidal AlMutairi
 # HR Analytics: Job Change of Data Scientists
 Predict who will move to a new job
 
-![Image](https://www.valamis.com/documents/10197/605345/hr-analytics.png) 
+![Images](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/HR%20Analytics.png) 
+
 ## Business Problem:
 The situation set up by the data set is that a company which is active in the Big Data and Data Analysis space is offer in courses to some of its employees. The company is offer paid training to their employees. Fortunately, many employees have signed up for these paid job trainings. However, they have been running into the situation where upon finishing a course they end up switching companies. Company wants to know which of these candidates are really wants to work for the company after training or looking for a new employment.
 ## Objective
