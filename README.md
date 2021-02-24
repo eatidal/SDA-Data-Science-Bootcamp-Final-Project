@@ -94,7 +94,8 @@ Random Forest Classifier Model(rfc)
          1.0       0.87      0.84      0.85      2876
 
     accuracy                           0.86      5753
-   macro avg       0.86      0.86      0.86      5753
+    macro avg       0.86      0.86      0.86      5753
+    weighted avg       0.86      0.86      0.86      5753
 
 Decision Tree Classifier Model(dtc)
 
@@ -104,7 +105,8 @@ Decision Tree Classifier Model(dtc)
          1.0       0.80      0.80      0.80      2876
 
     accuracy                           0.80      5753
-   macro avg       0.80      0.80      0.80      5753
+    macro avg       0.80      0.80      0.80      5753
+    weighted avg       0.80      0.80      0.80      5753
    
 KNeighbors Classifier Model(knn)
 
@@ -114,7 +116,8 @@ KNeighbors Classifier Model(knn)
          1.0       0.73      0.91      0.81      2876
 
     accuracy                           0.79      5753
-   macro avg       0.80      0.79      0.78      5753
+    macro avg       0.80      0.79      0.78      5753
+    weighted avg       0.80      0.79      0.78      5753
 
 ### Evaluation the Model
 My models has better accuracy scores than baseline model. That's good!
