@@ -74,8 +74,20 @@ Findings on gender:
 * company_type
 * training_hours
 
+### Evaluation the Model
+
+ My models has better accuracy than baseline model. That's good!
+ ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Models%20Accuracy.png)
+ 
+Although it is clear which model is more successfull, Look at its Confusion Matrix.
+ ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/RFC-Confusion%20Matrix.png)
+ 
+ ROC & AUC
+ ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/ROC.png)
+ 
+ Random Forest Classifier seem to be the most successful out of them
  
 ## Results
-I have applied three different machine learning methods to the data. Random Forest Classifier seem to be the most successful out of them. Random Forest achieved 0.86 accuracy score and 0.93 AUC scores. Analyzing the ROC curve which visualizes True Positivity Rate vs False Positive Rate for every threshold we can give the classifier,  Which it is perfect and I think we can call it a successful classification.
+I have applied three different machine learning models to the data. Random Forest Classifier seem to be the most successful out of them. Random Forest achieved 0.86 accuracy score and 0.93 AUC scores. Analyzing the ROC curve which visualizes True Positivity Rate vs False Positive Rate for every threshold we can give the classifier,  Which it is perfect and I think we can call it a successful classification.
 
 According to my approach in selecting feature importance we can see 'city_development_index', 'company_size' are most important factor in hob changes. Data scientists in cities with better development index which work in higher size of company don't tend to change their jobs.
