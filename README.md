@@ -75,21 +75,17 @@ Findings on gender:
 * training_hours
 
 ### Evaluation the Model
-
 My models has better accuracy scores than baseline model. That's good!
-
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Models%20Accuracy.png)
- 
 Although it is clear which model is more successfull, Look at its Confusion Matrix.
+
 **Confusion Matrix**
 This takes values and returns a report showing how each of the test values predicted classes compare to their actual classes.
-
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/RFC-Confusion%20Matrix.png)
  
-ROC & AUC
-
+ROC/AUC curve
+The Receiver Operating Characteristic (ROC) is a measure of a classifier’s predictive quality that compares and visualizes the tradeoff between the model’s sensitivity and specificity. When plotted, a ROC curve displays the true positive rate on the Y axis and the false positive rate on the X axis on both a global average and per-class basis.
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/ROC%20%26%20AUC.png)
- 
  Random Forest Classifier seem to be the most successful out of them
  
 ## Results
