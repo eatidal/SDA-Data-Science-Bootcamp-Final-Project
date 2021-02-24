@@ -148,6 +148,8 @@ According to my approach in selecting feature importance we can see 'city_develo
 
 [Encoding Categorical Variables](https://kiwidamien.github.io/encoding-categorical-variables.html)
 
+[Handling Imbalance](https://www.geeksforgeeks.org/ml-handling-imbalanced-data-with-smote-and-near-miss-algorithm-in-python/)
+
 [oversampling](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/)
 
 [Plotly](https://chart-studio.plotly.com/feed/#/)
