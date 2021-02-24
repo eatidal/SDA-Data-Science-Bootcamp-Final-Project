@@ -55,3 +55,6 @@ Findings on gender:
 * Lets put an imaginary line at 6.2 development index on y axis, Most of the yellow dots are below 6.2 index and purple dots above this line. We have more employees look for a change in cities with low development index.
 * **City development index is an important factor who look for change.**
 
+### Feature Selection
+![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Correlation%20between%20features.gif)
+
