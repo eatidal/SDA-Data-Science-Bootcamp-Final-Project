@@ -77,12 +77,15 @@ Findings on gender:
 ### Evaluation the Model
 
 My models has better accuracy than baseline model. That's good!
+
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Models%20Accuracy.png)
  
 Although it is clear which model is more successfull, Look at its Confusion Matrix.
+
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/RFC-Confusion%20Matrix.png)
  
 ROC & AUC
+
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/ROC.png)
  
  Random Forest Classifier seem to be the most successful out of them
