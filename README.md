@@ -31,7 +31,7 @@ Data contains 19158 Observation and 14 Features.
 
 Most features are categorical (Nominal, Ordinal, Binary), some with high cardinality.
 
-### Exploratory Data Analysis(EDA)
+### Data Visualization
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Target.png)
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Men%20vs%20Women%20Who%20will%20change%20job%20more!.gif)
 * From the Above Two Plots , We can see there are approx 75% number of employees which are not looking for job change that of rows as '0' , Whereas 25% looking for a job change that of rows as '1' .
@@ -55,12 +55,13 @@ Findings on gender:
 * Lets put an imaginary line at 6.2 development index on y axis, Most of the yellow dots are below 6.2 index and purple dots above this line. We have more employees look for a change in cities with low development index.
 * **City development index is an important factor who look for change.**
 
+## Machine Learning
 ### Feature Selection
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Correlation%20between%20features.gif)
  
  From the above heatmap we can clearly observe that the target has a high dependance on the city_development_index which means candidates from city with higher amount of development index don't tend to change their jobs (corr is negative).
  
- According to my approach in selecting feature, I Selected top 10 features from the data which is the best number that fit to my models.
+ According to my approach in selecting feature by 'feature_selection' technique, I Selected top 10 features from the data which is the best number that fit to my models.
  
  The 10 features that are selected are :
 * city
@@ -73,6 +74,52 @@ Findings on gender:
 * company_size
 * company_type
 * training_hours
+
+### Apply Modeling
+**Oversampling**
+* The target feature is clearly imbalanced,The distribution of target has a lot more samples in '0' than in '1'.
+* Used a Synthetic Minority Oversampling Technique (SMOTE) to increase data in balanced manner.
+* The accuracy score using the RandomForestClassifier (Befor Oversampling) is : **0.78**
+* The accuracy score using the RandomForestClassifier (After Oversampling) is : **0.86**
+* Data Balanced Successfully
+
+Used baseline model to compare the accuracy score (0.75) to three different machine learning models that applied on data as follows:
+
+Random Forest Classifier Model
+
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.87      0.86      2877
+         1.0       0.87      0.84      0.85      2876
+
+    accuracy                           0.86      5753
+   macro avg       0.86      0.86      0.86      5753
+weighted avg       0.86      0.86      0.86      5753
+
+Decision Tree Classifier Model
+
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.80      0.80      2877
+         1.0       0.80      0.80      0.80      2876
+
+    accuracy                           0.80      5753
+   macro avg       0.80      0.80      0.80      5753
+weighted avg       0.80      0.80      0.80      5753
+
+KNeighbors Classifier Model
+
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.66      0.76      2877
+         1.0       0.73      0.91      0.81      2876
+
+    accuracy                           0.79      5753
+   macro avg       0.80      0.79      0.78      5753
+weighted avg       0.80      0.79      0.78      5753
+
+
+
 
 ### Evaluation the Model
 My models has better accuracy scores than baseline model. That's good!
