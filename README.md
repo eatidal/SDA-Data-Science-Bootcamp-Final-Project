@@ -61,7 +61,7 @@ Findings on gender:
  
  From the above heatmap we can clearly observe that the target has a high dependance on the city_development_index which means candidates from city with higher amount of development index don't tend to change their jobs (corr is negative).
  
- According to my approach in selecting feature by 'SelectKBest' technique, I Selected top 10 features from the data which is the best number that fit to my models.
+ According to my approach in selecting feature by 'SelectKBest' and 'f_classif' techniques, I Selected top 10 features from the data which is the best number that fit to my models.
  
  The 10 features that are selected are :
 * city
