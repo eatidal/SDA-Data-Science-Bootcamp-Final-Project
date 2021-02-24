@@ -88,7 +88,7 @@ This takes values and returns a report showing how each of the test values predi
  
 ROC & AUC
 
-![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/ROC.png)
+![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/ROC%20%26%20AUC.png)
  
  Random Forest Classifier seem to be the most successful out of them
  
