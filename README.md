@@ -46,9 +46,12 @@ Findings on gender:
 * If we look at the ratio then more women and "others" are looking for a change than men.
 
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Relevent%20Experience.png)
-![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Relevent%20Experience.png)
+![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Relevent%20Experience.gif)
 * We have more employees with relevant experience 72% and 10,831 of such employees are staying back. 2961 employees are looking for achange.
 * All employees with no relevant experience 28% , 3550 will stay in job and 1816 are looking for change.
  
-![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Relationship%20between%20city%20and%20city_development_index.gif) 
+![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Relationship%20between%20city%20and%20city_development_index.gif)
+* Purple denotes employees who wants to stay and yellow denotes those who want a change.
+* Lets put an imaginary line at 6.2 development index on y axis, Most of the yellow dots are below 6.2 index and purple dots above this line. We have more employees look for a change in cities with low development index.
+* **City development index is an important factor who look for change.**
 
