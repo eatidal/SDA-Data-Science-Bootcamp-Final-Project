@@ -1,7 +1,7 @@
 # SDA-Data-Science-Final-Project
 Author: Eatidal AlMutairi
 # HR Analytics: Job Change of Data Scientists
-Predict who will move to a new job
+**Predict who will move to a new job**
 
 ![Images](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/HR%20Analytics.png) 
 
