@@ -76,11 +76,13 @@ Findings on gender:
 
 ### Evaluation the Model
 
-My models has better accuracy than baseline model. That's good!
+My models has better accuracy scores than baseline model. That's good!
 
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/Models%20Accuracy.png)
  
 Although it is clear which model is more successfull, Look at its Confusion Matrix.
+**Confusion Matrix**
+This takes values and returns a report showing how each of the test values predicted classes compare to their actual classes.
 
 ![Image](https://github.com/eatidal/SDA-Data-Science-Final-Project/blob/main/Images/RFC-Confusion%20Matrix.png)
  
