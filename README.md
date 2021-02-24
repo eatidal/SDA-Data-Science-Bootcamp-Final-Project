@@ -61,7 +61,7 @@ Findings on gender:
  
  From the above heatmap we can clearly observe that the target has a high dependance on the city_development_index which means candidates from city with higher amount of development index don't tend to change their jobs (corr is negative).
  
- According to my approach in selecting feature by 'feature_selection' technique, I Selected top 10 features from the data which is the best number that fit to my models.
+ According to my approach in selecting feature by 'SelectKBest' technique, I Selected top 10 features from the data which is the best number that fit to my models.
  
  The 10 features that are selected are :
 * city
@@ -81,11 +81,12 @@ Findings on gender:
 * Used a Synthetic Minority Oversampling Technique (SMOTE) to increase data in balanced manner.
 * The accuracy score using the RandomForestClassifier (Befor Oversampling) is : **0.78**
 * The accuracy score using the RandomForestClassifier (After Oversampling) is : **0.86**
-* Data Balanced Successfully
 
-Used baseline model to compare the accuracy score (0.75) to three different machine learning models that applied on data as follows:
+Data Balanced Successfully
 
-Random Forest Classifier Model
+Used Baseline model to compare the accuracy score (0.75) to three different machine learning models that applied on data as follows:
+
+Random Forest Classifier Model(rfc)
 
               precision    recall  f1-score   support
 
@@ -94,9 +95,10 @@ Random Forest Classifier Model
 
     accuracy                           0.86      5753
    macro avg       0.86      0.86      0.86      5753
+   
 weighted avg       0.86      0.86      0.86      5753
 
-Decision Tree Classifier Model
+Decision Tree Classifier Model(dtc)
 
               precision    recall  f1-score   support
 
@@ -105,9 +107,10 @@ Decision Tree Classifier Model
 
     accuracy                           0.80      5753
    macro avg       0.80      0.80      0.80      5753
+   
 weighted avg       0.80      0.80      0.80      5753
 
-KNeighbors Classifier Model
+KNeighbors Classifier Model(knn)
 
               precision    recall  f1-score   support
 
@@ -116,10 +119,8 @@ KNeighbors Classifier Model
 
     accuracy                           0.79      5753
    macro avg       0.80      0.79      0.78      5753
+   
 weighted avg       0.80      0.79      0.78      5753
-
-
-
 
 ### Evaluation the Model
 My models has better accuracy scores than baseline model. That's good!
